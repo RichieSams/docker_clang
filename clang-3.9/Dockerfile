@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y \
     # Install Tools
     clang-$llvmver \
     lldb-$llvmver \
-    lld-$llvmver \
     libc++-dev \
     libc++abi-dev \
     cmake \
