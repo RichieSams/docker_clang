@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     lld-$llvmver \
     libc++-dev \
     libc++abi-dev \
+    valgrind \
  && rm -rf /var/lib/apt/lists/*
 
 RUN ln /usr/bin/clang-$llvmver /usr/bin/clang
