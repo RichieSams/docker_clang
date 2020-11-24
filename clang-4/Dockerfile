@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM quay.io/richiesams/ubuntu:bionic
 
 ARG llvmver=4.0
 

@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM quay.io/richiesams/ubuntu:xenial
 
 ARG llvmver=3.7
 
